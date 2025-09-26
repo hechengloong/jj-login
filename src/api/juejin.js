@@ -28,14 +28,7 @@ module.exports = function () {
       });
     },
     dipLucky: function (params) {
-      return request({
-        url: 'https://api.juejin.cn/growth_api/v1/lottery_lucky/dip_lucky?aid=2608',
-        method: 'post',
-        data: params,
-        headers: {
-          cookie: COOKIE,
-        },
-      });
+      return ''
     },
   }
 };
